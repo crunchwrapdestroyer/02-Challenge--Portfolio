@@ -34,7 +34,7 @@
     color: aliceblue;
 }
 .body {
-    background-color:#f4433654;
+    background-color: rgb(188, 225, 255);
 }
 .hero {
     height: 800px;
@@ -43,7 +43,7 @@
     background-image: url("./images/poudre_mountains.jpeg");
     background-size: cover;
     background-position: center;
-    position: fixed;
+    position: relative;
 
 }
 #profile {
@@ -57,12 +57,42 @@
     transform: translate(50px, -103px);
     font-size: 30px;
     display: inline-block;
-    font-family: monospace;
 }
 
 .container {
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: baseline;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 10px 245px 50px 50px;
+    text-align: center;
+    flex-wrap: wrap;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.flex-item1 {
+    background-image: url("./images/tiny_bird.jpg")
+    height: 400px;
+    width: 600px;
+    padding-right: 10px;
+}
+.flex-item2 {
+    background-image: url("./images/graph.jpg");
+    height: 400px;
+    width: 600px;
+    padding-right: 10px;
+}
+.flex-item3 {
+    background-image: url("./images/space.jpg")
+    height: 400px;
+    width: 611px;
+    padding-top: 10px;
+    transform: translateY(50px);
+}
+.flex-item4 {
+    background-image: url(./images/my_dog.jpeg)
+    height: 400px;
+    width: 611px;
+    padding-top: 10px;
+    transform: translateY(50px);
 }
