@@ -131,6 +131,10 @@
 .footer #contact {
     padding-left: 100px;
 }
+
 .footer #email {
     padding-right: 100px;
+}
+.footer :hover {
+    color: cadetblue;
 }
