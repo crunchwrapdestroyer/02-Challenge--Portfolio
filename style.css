@@ -68,6 +68,9 @@
     flex-wrap: wrap;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.cards :hover {
+     transform: scale(1.1);
+}
 .cards a{
     color: white;
 }
@@ -119,8 +122,6 @@
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-    
-
 .footer {
     background-color:  rgb(69, 22, 38);
     display: flex;
