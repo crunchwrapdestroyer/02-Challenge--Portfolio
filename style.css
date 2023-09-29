@@ -1,5 +1,5 @@
 .header {
-    background-color: darkslategrey;
+    background-color:  rgb(69, 22, 38);
 }
 .header h1 {
     margin: 13px 76px 11px 194px;
@@ -17,10 +17,10 @@
     font-size: 21px;
 }
 .header nav a {
-    color:bisque;
+    color:white;
 }
 .header nav ul :hover {
-    color:coral;
+    color:cadetblue;
 }
 
 .header nav ul {
@@ -59,7 +59,7 @@
     display: inline-block;
 }
 
-.card1 {
+.cards {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -68,36 +68,69 @@
     flex-wrap: wrap;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.card2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    position: relative;
-    text-align: center;
-    flex-wrap: wrap;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.cards a{
+    color: white;
 }
-.flex-item1 {
+
+#card1 {
     background-image: url(./images/resume.png);
     height: 400px;
     width: 400px;
     background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-.flex-item2 {
+#card1 a {
+    color: black;
+}
+#card2 {
     background-image: url(./images/graph.jpg);
     height: 400px;
     width: 400px;
     background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
 }
-.flex-item3 {
+#card3 {
     background-image: url(./images/space.jpg);
     height: 400px;
     width: 400px;
     background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-.flex-item4 {
+#card4 {
     background-image: url(./images/my_dog.jpeg);
     height: 400px;
     width: 400px;
     background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#card5 {
+    background-color:  rgb(69, 22, 38);
+    height: 400px;
+    width: 885px;
+    background-size: cover;
+    padding: 0, 10px, 0, 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+    
+
+.footer {
+    background-color:  rgb(69, 22, 38);
+    display: flex;
+    color: white;
+    width: 100%;
+    justify-content: space-between;
+}
+.footer #contact {
+    padding-left: 100px;
+}
+.footer #email {
+    padding-right: 100px;
 }
